@@ -21,6 +21,7 @@ Database: MySQL
 Frontend: Blade Templating (Laravel)
 
 ⚙️ Fitur Utama
+
 ✅ Tambah Koleksi: Input data boneka baru (Nama, Jenis, Harga, Stok).
 
 ✅ Daftar Boneka: Menampilkan semua koleksi yang tersedia di gudang.
