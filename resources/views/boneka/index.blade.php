@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD-BONEKA</title>
     <style>
-        * {
-            margin: 15;
-            padding: 30;
-            box-sizing: border-box;
+        * { margin: 15; padding: 30; box-sizing: border-box;
         }
         body {
             font-family: Arial, sans-serif;
