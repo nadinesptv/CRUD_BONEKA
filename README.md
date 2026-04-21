@@ -41,27 +41,5 @@ resources/
         ├── index.blade.php
         ├── create.blade.php
         ├── edit.blade.php
-        └── show.blade.phpn
+        └── show.blade.php
 
-Sesuaikan file .env:
-
-Cuplikan kode
-DB_DATABASE=db_boneka
-DB_USERNAME=root
-DB_PASSWORD=
-Migrasi Database
-
-Bash
-php artisan migrate
-Jalankan Server
-
-Bash
-php artisan serve
-Akses aplikasi di: http://127.0.0.1:8000/boneka
-
-### 👨‍💻 Author
-Nama: nadine septia vynola
-
-NIM: 240180026
-
-Prodi: Sistem Informasi
