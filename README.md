@@ -24,6 +24,13 @@ Project ini merupakan aplikasi manajemen inventori boneka berbasis **Laravel 12*
 * ✅ **Edit Data:** Memperbarui informasi boneka jika ada perubahan harga atau detail.
 * ✅ **Hapus Data:** Menghapus data boneka dari sistem jika sudah tidak diproduksi.
 
+  ## 🚀 Panduan Instalasi
+
+1. **Clone Repository**
+   ```bash
+   git clone [https://github.com/nadine-username/crud-boneka-nadine.git](https://github.com/nadine-username/crud-boneka-nadine.git)
+   cd crud-boneka-nadine
+
 ## 📂 Struktur Project (Model & Controller)
 ```text
 app/
