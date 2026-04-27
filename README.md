@@ -7,29 +7,26 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# 🧸 Tugas CRUD Boneka Laravel 12 - Nadine
+# 🧸 Project CRUD Doll Inventory - Nadine
 
 ## 📌 Deskripsi
-Project ini merupakan aplikasi manajemen inventori boneka berbasis **Laravel 12** yang mengimplementasikan fitur **CRUD** (Create, Read, Update, Delete). Aplikasi ini dirancang untuk memudahkan pendataan stok boneka secara efisien.
+Project ini merupakan aplikasi manajemen inventori boneka berbasis **Laravel 12** yang mengimplementasikan fitur **CRUD** (Create, Read, Update, Delete). Aplikasi ini dirancang untuk memudahkan pendataan stok boneka, mulai dari penambahan koleksi hingga pemantauan data secara efisien.
+
+---
 
 ## 🛠️ Teknologi yang Digunakan
 * **Framework:** Laravel 12
-* **Bahasa:** PHP
+* **Bahasa:** PHP 8.x
 * **Database:** MySQL
 * **Frontend:** Blade Templating (Laravel)
 
 ## ⚙️ Fitur Utama
-* ✅ **Tambah Koleksi:** Input data boneka baru (Nama, Jenis, Harga, Stok).
-* ✅ **Daftar Boneka:** Menampilkan semua koleksi yang tersedia di gudang.
-* ✅ **Edit Data:** Memperbarui informasi boneka jika ada perubahan harga atau detail.
-* ✅ **Hapus Data:** Menghapus data boneka dari sistem jika sudah tidak diproduksi.
+* ✅ **Add Doll Data:** Menambahkan koleksi boneka baru ke dalam sistem.
+* ✅ **Inventory List:** Menampilkan tabel lengkap koleksi boneka beserta detailnya.
+* ✅ **Modify Information:** Mengubah detail boneka (seperti nama, kategori, atau harga).
+* ✅ **Remove Data:** Menghapus data boneka dari daftar inventori.
 
-  ## 🚀 Panduan Instalasi
-
-1. **Clone Repository**
-   ```bash
-   git clone [https://github.com/nadine-username/crud-boneka-nadine.git](https://github.com/nadine-username/crud-boneka-nadine.git)
-   cd crud-boneka-nadine
+---
 
 ## 📂 Struktur Project (Model & Controller)
 ```text
@@ -41,12 +38,56 @@ app/
 │   └── Doll.php
 ├── Database/
 │   └── migrations/
-│       └── 2026_04_22_xxxxxx_create_dolls_table.php
+│       └── 2026_04_22_000000_create_dolls_table.php
 resources/
 └── views/
     └── dolls/
         ├── index.blade.php
         ├── create.blade.php
         ├── edit.blade.php
+        └── show.blade.php
+
+🚀 Panduan Instalasi
+Clone Repository
+
+Bash
+git clone [https://github.com/nadine-username/crud-boneka-nadine.git](https://github.com/nadine-username/crud-boneka-nadine.git)
+cd crud-boneka-nadine
+Install Dependencies
+
+Bash
+composer install
+npm install && npm run dev
+Environment Setup
+
+Bash
+cp .env.example .env
+php artisan key:generate
+Database Configuration
+Buka file .env dan sesuaikan dengan database lokal kamu:
+
+Cuplikan kode
+DB_DATABASE=db_koleksi_nadine
+DB_USERNAME=root
+DB_PASSWORD=
+Run Migration
+
+Bash
+php artisan migrate
+Start Application
+
+Bash
+php artisan serve
+Buka di browser: http://127.0.0.1:8000
+
+📄 Lisensi
+Project ini dibuat untuk tujuan akademik dan pengembangan skill pemrograman web.
+
+👩‍💻 Author
+Nama : Nadine [Isi Nama Lengkap]
+
+NIM  : [Isi NIM Kamu]
+
+Prodi: Sistem Informasi
         └── show.blade.php
 
