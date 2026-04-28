@@ -1,4 +1,4 @@
-# 🧸 Project CRUD Doll Inventory - Nadine
+# 🧸 Project CRUD Boneka - Nadine
 
 ## 📌 Deskripsi
 Project ini merupakan aplikasi manajemen inventori boneka berbasis **Laravel 12** yang mengimplementasikan fitur **CRUD** (Create, Read, Update, Delete). Aplikasi ini dirancang untuk memudahkan pendataan stok boneka, mulai dari penambahan koleksi hingga pemantauan data secara efisien.
@@ -37,6 +37,7 @@ resources/
         ├── create.blade.php
         ├── edit.blade.php
         └── show.blade.php
+---
 
 🚀 Panduan Instalasi
 Clone Repository
@@ -71,12 +72,14 @@ Bash
 php artisan serve
 Buka di browser: http://127.0.0.1:8000
 
+----
+
 📄 Lisensi
 Project ini dibuat untuk tujuan akademik dan pengembangan skill pemrograman web.
 
 👩‍💻 Author
-Nama : Nadine [Isi Nama Lengkap]
+Nama : Nadine Septia Vynola
 
-NIM  : [Isi NIM Kamu]
+NIM  : 240180026
 
 Prodi: Sistem Informasi
