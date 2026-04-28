@@ -16,7 +16,7 @@ Project ini merupakan aplikasi manajemen inventori boneka berbasis **Laravel 12*
 
 ## 🛠️ Teknologi yang Digunakan
 * **Framework:** Laravel 12
-* **Bahasa:** PHP 8.x
+* **Bahasa:** PHP 8.2
 * **Database:** MySQL
 * **Frontend:** Blade Templating (Laravel)
 
